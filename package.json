@@ -1,0 +1,19 @@
+{
+  "name": "kafka-js-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "produce": "node ./producer/index.js",
+    "consume": "node ./consumer/consumer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4",
+    "uuid": "^9.0.1"
+  }
+}
